@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace DDDBlog.Controllers
+namespace DDDBlog
 {
     public class BlogPostsController : Controller, IBlogPostsController
     {
