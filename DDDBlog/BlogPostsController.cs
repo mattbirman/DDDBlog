@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Collections.Generic;
+using DDDBlog.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace DDDBlog
 {
@@ -6,12 +8,7 @@ namespace DDDBlog
     {
         public IActionResult GetPostsFor(string blogName)
         {
-            return Ok();
+            return Ok(new List<BlogPostViewModel>());
         }
-    }   
-    
-    public interface IBlogPostsController
-    {
-        IActionResult GetPostsFor(string blogName);
     }
 }
