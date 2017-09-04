@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDBlog", "DDDBlog\DDDBlog.csproj", "{F877082F-3E0D-42CE-820F-2A2E31364D57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDBlog.Tests", "DDDBlog.Tests\DDDBlog.Tests.csproj", "{BCABCEBE-DDC6-49F1-9B13-CF0558D7ACAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F877082F-3E0D-42CE-820F-2A2E31364D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F877082F-3E0D-42CE-820F-2A2E31364D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F877082F-3E0D-42CE-820F-2A2E31364D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F877082F-3E0D-42CE-820F-2A2E31364D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCABCEBE-DDC6-49F1-9B13-CF0558D7ACAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCABCEBE-DDC6-49F1-9B13-CF0558D7ACAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCABCEBE-DDC6-49F1-9B13-CF0558D7ACAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCABCEBE-DDC6-49F1-9B13-CF0558D7ACAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
