@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using DDDBlog.Models;
+using DDDBlog.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DDDBlog
