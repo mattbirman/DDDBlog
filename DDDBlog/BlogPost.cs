@@ -5,20 +5,23 @@ namespace DDDBlog
     public class BlogPost
     {
         public Guid Id { get; }
-        public string BlogName { get; }
         public string Title { get; }
         public string Content { get; }
         public Guid AuthorId { get; }
         public DateTimeOffset PublishedDate { get; }
         
-        public BlogPost(Guid id, string blogName, string title, string content, Guid authorId, DateTimeOffset publishedDate)
+        public BlogPost(Guid id, string title, string content, Guid authorId, DateTimeOffset publishedDate)
         {
             Id = id;
-            BlogName = blogName;
             Title = title;
             Content = content;
             AuthorId = authorId;
             PublishedDate = publishedDate;
+        }
+
+        public static BlogPost CreateFromDraft(DraftBlogPost draftBlogPost)
+        {
+            return new BlogPost(draftBlogPost.Id, draftBlogPost.Title, draftBlogPost.Content, draftBlogPost.AuthorId, DateTimeOffset.Now);
         }
     }
 }
